@@ -55,7 +55,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4 font-inter">
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4 font-inter">
       {/* Customer Ratings Card */}
       <CustomerRatingsCard />
 
@@ -270,7 +270,8 @@ function InsightsTickerBar({ insights, openExpandedView }) {
   return (
     <div
       ref={containerRef}
-      className="relative w-full max-w-2xl bg-gradient-to-r from-blue-600 to-purple-700 text-white rounded-xl shadow-lg p-4 overflow-hidden cursor-pointer flex items-center"
+      // className="relative w-full max-w-2xl bg-gradient-to-r from-blue-600 to-purple-700 text-white rounded-xl shadow-lg p-4 overflow-hidden cursor-pointer flex items-center"
+      className="w-[616px] h-[42px] bg-[#F7F7F7] pt-2 pb-2 px-1 gap-2 border-t flex items-center"
       onClick={handleInsightClick}
     >
       <div className="flex-shrink-0 mr-3">
